@@ -1,0 +1,3 @@
+# firstapp-for-my-daughter
+This android app is for my daughter. I hope she will has some fun with it.
+It is in progress ....
