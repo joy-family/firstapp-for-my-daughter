@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FunNote</string>
+    <string name="title_todo">할 일들</string>
+    <string name="title_allowance">용돈기입장</string>
+    <string name="title_game">게임</string>
+    <string name="title_setting">설정</string>
+    <string name="icon">아이콘</string>
+    <string name="image_view">image view</string>
+</resources>

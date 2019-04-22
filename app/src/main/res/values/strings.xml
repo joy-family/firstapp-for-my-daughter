@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">SchoolNote</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">FunNote</string>
+    <string name="title_todo">To-Do</string>
+    <string name="title_allowance">Allowance</string>
+    <string name="title_game">Games</string>
+    <string name="title_setting">Settings</string>
+    <string name="icon">icon</string>
+    <string name="image_view">image view</string>
 </resources>
