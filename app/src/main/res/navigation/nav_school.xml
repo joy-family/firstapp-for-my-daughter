@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_school" app:startDestination="@id/todoListFragment">
+
+    <fragment android:id="@+id/todoListFragment"
+              android:name="com.joy.family21.schoolnote.todo.TodoListFragment"
+              tools:layout="@layout/fragment_todo_list"
+              android:label="TodoListFragment">
+        <action android:id="@+id/action_todoListFragment_to_todoDetailFragment"
+                app:destination="@id/todoDetailFragment" app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_right"
+                app:popExitAnim="@anim/slide_out_left"/>
+    </fragment>
+
+    <fragment android:id="@+id/todoDetailFragment"
+              android:name="com.joy.family21.schoolnote.todo.TodoDetailFragment"
+              tools:layout="@layout/fragment_todo_detail"
+              android:label="TodoDetailFragment">
+        <argument android:name="todoItemId" app:argType="integer"/>
+    </fragment>
+
+    <fragment android:id="@+id/gameListFragment"
+              android:name="com.joy.family21.schoolnote.game.GameListFragment"
+              tools:layout="@layout/fragment_game_list"
+              android:label="GameListFragment"/>
+
+    <fragment android:id="@+id/moneyFragment"
+              android:name="com.joy.family21.schoolnote.money.MoneyFragment"
+              tools:layout="@layout/fragment_money"
+              android:label="MoneyFragment"/>
+
+    <fragment android:id="@+id/settingFragment"
+              android:name="com.joy.family21.schoolnote.setting.SettingFragment"
+              tools:layout="@layout/fragment_setting"
+              android:label="SettingFragment"/>
+</navigation>
